@@ -1,5 +1,6 @@
 #include <iostream>
 #include <Windows.h>
+#include <conio.h>
 #include <cmath>
 #define PI 3.1415926535897932846
 
@@ -45,6 +46,8 @@ int main()
     cout << "Площадь первого(R1) круга = " << PI * pow(R1, 2) << endl;
     cout << "Площадь второго(R2) круга = " << PI * pow(R2, 2) << endl;
     cout << "Площадь кольца = " << PI * pow(R1 - R2, 2) << endl;
-
+    cout << endl;
+    
+    _getch();
     return 0;
 }
