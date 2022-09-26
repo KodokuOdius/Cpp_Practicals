@@ -1,5 +1,6 @@
 #include <iostream>
 #include <Windows.h>
+#include <conio.h>
 
 // 6.6
 // Дано число A. Вычислить A15, используя две вспомогательные
@@ -34,6 +35,8 @@ int main()
     cout << "A 5 степень = " << A5 << endl;
     cout << "A 10 степень = " << A10 << endl;
     cout << "A 15 степень = " << A15 << endl;
-
+    cout << endl;
+    
+    _getch();
     return 0;
 }
